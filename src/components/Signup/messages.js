@@ -5,7 +5,7 @@ export const messages = {
   setupSecondTitle: "You can always create another workspace later.",
   planningTitle: "How are you planning to use Eden?",
   planningSecondTitle: "We'll streamline your setup experience accodingly.",
-  finishTitle: "Congratulations, Eden",
+  finishTitle: "Congratulations,",
   finishSecondTitle:
     "You have completed onboarding, you can start using the Eden!",
 };
