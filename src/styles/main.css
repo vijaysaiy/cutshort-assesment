@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import "./modules/signup.css";
+@import "./modules/userDetails.css";
+@import "./util.css";
+
+:root {
+  --primary: #664ce5;
+  --secondary: #5c6984;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

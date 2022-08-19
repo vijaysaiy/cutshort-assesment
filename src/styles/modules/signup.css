@@ -1,0 +1,139 @@
+.steps {
+  margin-top: 36px;
+}
+.signup .btn-container {
+  margin-top: 32px;
+  width: 100%;
+}
+.signup .btn-create {
+  width: 100%;
+  padding: 10px;
+  color: var(--white);
+  background: var(--primary);
+  border: none;
+  border-radius: 6px;
+}
+
+.setup-home-btn {
+  border: none;
+  border-right: 2px solid #f8f9fc;
+  background: #f8f9fc;
+  color: #9ba6bc;
+  padding: 6px;
+  height: 100%;
+}
+
+.welcome-title {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.change-title {
+  color: var(--secondary);
+  font-size: 14px;
+  text-align: center;
+}
+
+.form {
+  margin-top: 36px;
+}
+.input-container > label {
+  font-size: 14px;
+}
+
+.input-container .input-field {
+  padding: 6px;
+  border: 2px solid #edf1f6;
+  border-radius: 6px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.input-container .input-field:focus {
+  outline: none !important;
+  border: 2px solid var(--primary);
+}
+
+.workspace-url-container {
+  display: flex;
+  height: fit-content;
+  border: 2px solid #edf1f6;
+  border-radius: 6px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.workspace-url-container > input {
+  border: none;
+  padding: 6px;
+  width: 72% !important;
+}
+
+.workspace-url-container > input:focus {
+  outline: none !important;
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+}
+
+.card-container {
+  width: 430px;
+  margin-top: 36px;
+  margin-bottom: 16px;
+  gap: 30px;
+}
+.card-container .card {
+  width: 50%;
+  border: 2px solid #edf1f6;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.card-container .card .card-logo {
+  margin-top: 12px;
+}
+.card-container .card .card-title {
+  font-weight: 600;
+  margin-top: 16px;
+}
+.card-container .card .card-text {
+  color: var(--secondary);
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.card-container .active {
+  border: 1px solid var(--primary);
+  box-shadow: 0 0 2px var(--primary);
+}
+.card-container .active .fa-user:before {
+  color: var(--primary);
+}
+.card-container .active .fa-users:before {
+  color: var(--primary);
+}
+.finish .success {
+  margin-bottom: 32px;
+}
+.finish .success > .fa-solid {
+  font-size: 50px !important;
+}
+.finish .success > .fa-circle-check:before {
+  color: var(--primary) !important;
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+  .steps {
+    width: 350px;
+  }
+  .welcome-title {
+    font-size: 18px;
+    text-align: center;
+  }
+  .card-container {
+    width: 80vw;
+  }
+  .card-container .card {
+    padding: 12px;
+  }
+}
